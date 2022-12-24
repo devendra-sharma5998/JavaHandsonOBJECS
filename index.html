@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+
+</head>
+<body>
+    <p>
+        Question 1.
+        Merge the Objects
+    </p>
+
+    <pre>
+        function Check(obj1,obj2) {
+    obj1.state=obj2.state;
+    obj1.code=obj2.code;
+    return obj1
+}
+    </pre>
+    <br>
+    <p>
+        Question 2.
+        Delete a Parameter
+    </p>
+    <pre>
+        function Check(obj1) {
+    return delete obj1.rollno
+
+}
+    </pre>
+    <br>
+    <p>
+        Question 3.
+        Check whether the Package is Dream Package or not
+    </p>
+    <pre>
+        function Check(obj1) {
+   
+      if(obj1.salary>500000){
+        return "Dream"
+      }
+      else{
+        return "NotDream"
+      }
+    
+}
+    </pre>
+    <br>
+    <p>
+        Question 4.
+        Check whether the Object has a parameter or not
+    </p>
+    <pre>
+        function Check(obj1) {
+   let d=0;
+   for(let k in obj1){
+     d++;
+   }
+   return d>0;
+}
+    </pre>
+    <br>
+    <p>
+        Question 5.
+        Merge the Objects
+    </p>
+    <pre>
+        function Check(obj1,obj2) {
+    obj1.state=obj2.state;
+    obj1.code=obj2.code;
+    return obj1
+}
+    </pre>
+    <br>
+    <p>
+        Question 6.
+        Object Multiplyer
+    </p>
+    <pre>
+        function Check(a,obj1) {
+  obj1.id=obj1.id*2;
+  obj1.houseno=obj1.houseno*2
+  return obj1
+}
+    </pre>
+    <br>
+    <p>
+        Question 7.
+        Find the  sum of Object Members
+    </p>
+    <pre>
+        function Check(obj1) {
+
+let sum=0;
+sum=obj1.p1+obj1.p2+obj1.p3
+return sum;
+}
+    </pre>
+    <br>
+    <p>
+        Question 8.
+        Check whether the Objects are same or not.
+    </p>
+    <pre>
+        function check(obj1,a,b) {
+  
+  if(obj1.name=== a && obj1.id ===b){
+    return "true"
+  }
+   else{
+     return "false"
+   }
+}
+    </pre>
+</body>
+</html>
